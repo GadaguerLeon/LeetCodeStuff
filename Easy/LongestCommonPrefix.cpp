@@ -20,6 +20,7 @@ std::string longestCommonPrefix(std::vector<std::string> strs) {
     return ans;
 }
 
+// Driver code
 int main () {
     std::vector<std::string> test = {"flower","flow","flight"};
     std::cout << longestCommonPrefix(test) << std::endl;
